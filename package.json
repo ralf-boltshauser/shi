@@ -1,16 +1,28 @@
 {
+<<<<<<< HEAD
   "name": "simplehostingtest",
   "version": "0.0.3",
+=======
+  "name": "shi",
+  "version": "0.0.1",
+>>>>>>> e35d04e (Initial Commit)
   "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+<<<<<<< HEAD
   "main": "main.js",
+=======
+>>>>>>> e35d04e (Initial Commit)
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+<<<<<<< HEAD
     "start": "npm run build && npm run start:prod",
+=======
+    "start": "nest start",
+>>>>>>> e35d04e (Initial Commit)
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
